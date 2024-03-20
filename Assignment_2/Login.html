@@ -1,49 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login & Registration Form</title>
-  <!---Custom CSS File--->
-  <link rel="stylesheet" href="style1.css">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-</head>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,900;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    />
 
-      
-<body>
-  <div class="container">
-    <input type="checkbox" id="check">
-    <div class="login form">
-      <header>Login</header>
-      <form action="#">
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Enter your password">
-        <a href="#">Forgot password?</a>
-        <input type="button" class="button" value="Login">
-      </form>
-      <div class="signup">
-        <span class="signup">Don't have an account?
-         <label for="check">Signup</label>
-        </span>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  
+  
+    <link rel="stylesheet" href="css/aos.css">
+  
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+  <body>
+    <div class="site-wrap">
+
+
+      <div class="site-navbar py-2">
+  
+        <div class="search-wrap">
+          <div class="container">
+            <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+            <form action="#" method="post">
+              <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+            </form>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="logo">
+              <div class="site-logo">
+                <a href="index.html" class="js-logo-clone">Satyam Pharmacy</a>
+              </div>
+            </div>
+            <div class="main-nav d-none d-lg-block">
+              <nav class="site-navigation text-right text-md-center" role="navigation">
+                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Store</a></li>
+                  
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="Login.html">Login/SignUp</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="icons">
+              <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+              <a href="cart.html" class="icons-btn d-inline-block bag">
+                <span class="icon-shopping-bag"></span>
+                <span class="number">2</span>
+              </a>
+              <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
+                  class="icon-menu"></span></a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="registration form">
-      <header>Signup</header>
-      <form action="#">
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Create a password">
-        <input type="password" placeholder="Confirm your password">
-        <input type="button" class="button" value="Signup">
-      </form>
-      <div class="signup">
-        <span class="signup">Already have an account?
-         <label for="check">Login</label>
-        </span>
+
+        <div class="divbg-light">
+          <div class="link-home-container">
+            <span class="link-home-container1">
+              <span>Home</span>
+              <span class="span3"> </span>
+            </span>
+          </div>
+          <div class="header-social-media">/</div>
+          <div class="strong-thank">Login and Singup</div>
+        </div>
+      </header>
+      <section class="symbol-symbol">
+        <div class="list-item-link">
+          <div class="footer-container">
+            <div class="divcontainer">
+              <div class="header-login-wrapper">
+                <h1 class="header-login1">Login</h1>
+              </div>
+              <form class="divplaceholder">
+                <div class="confirm-password-input">
+                  <input class="form-input" type="text" />
+
+                  <div class="form-input1">
+                    <input
+                      class="enter-your-password"
+                      placeholder="Enter your password"
+                      type="text"
+                    />
+
+                    <div class="enter-your-email">Enter your email</div>
+                  </div>
+                </div>
+                <div class="form-input-label">
+                  <div class="form-link">Forgot password?</div>
+                </div>
+                <button class="form-input2">
+                  <div class="login1">Login</div>
+                </button>
+              </form>
+              <div class="login-input-label">
+                <div class="dont-have-an-container">
+                  <span>Don't have an account? </span>
+                  <span class="signup">Signup</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="divcontainer1">
+            <div class="frame-parent8">
+              <div class="header-login-container">
+                <h1 class="header-login2">Sign Up</h1>
+              </div>
+              <div class="frame-parent9">
+                <div class="form-input-parent">
+                  <input class="form-input3" type="text" />
+
+                  <div class="form-input4">
+                    <input
+                      class="enter-your-password1"
+                      placeholder="Enter your password"
+                      type="text"
+                    />
+
+                    <div class="enter-your-email1">Enter your email</div>
+                  </div>
+                </div>
+                <div class="form-input5">
+                  <input
+                    class="divplaceholder1"
+                    placeholder="Confirm your password"
+                    type="text"
+                  />
+                </div>
+              </div>
+            </div>
+            <button class="form-input6">
+              <div class="login2">Login</div>
+            </button>
+            <div class="sub-container">
+              <div class="already-have-account-container">
+                <span class="already-have-account">Already have account? </span>
+                <span class="login3">Login</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="password-input">
+        <img class="email-input-icon" loading="lazy" alt="" />
+
+           <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+            <div class="block-7">
+              <h3 class="footer-heading mb-4">About Us</h3>
+              <p>Satyam Pharmacy started by Pal Satyam in 2018 at Ahmedabad, India. With in 5 years we became India largest Pharmacy Company.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+            <h3 class="footer-heading mb-4">Social Media</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Instragram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Youtube</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address">5,Satyam Complex Ranip, Ahmedabad, Gujarat, India</li>
+                <li class="phone"><a href="tel://9023786907">9023786907</a></li>
+                <li class="email">satyampal200431@gmail.com</li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+             
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is registered</i> by <a href="#" target="_blank"
+                class="text-primary">Satyam Pharmacy</a>
+              
+            </p>
+          </div>
+
+        </div>
       </div>
-    </div>
+    </footer>
   </div>
 
- 
-</body>
+  </body>
 </html>
